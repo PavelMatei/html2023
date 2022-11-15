@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS prioritati id vs class</title>
+    <link rel="stylesheet" href="./css/ap6.css">
+</head>
+<body>
+    <!-- nu putem pune spatii la id -->
+    <!-- valoriile de la id si de la class sunt key sensitive -->
+    <!-- id-urile trebuie sa inceapa cu o litera -->
+    <!-- ultima proprietate citita are prioritate -->
+    <!-- id-ul e unic-->
+    <!-- ordinea prioritatilor este de la ultima scrisa -->
+    <p id="primulp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat inventore praesentium reiciendis molestiae ullam nisi, facilis necessitatibus quis excepturi, fugiat consequatur repudiandae, at sed nam atque itaque laborum ea non?</p>
+    <p class="pblue pfont">Et amet, dolore possimus est voluptate, ex quo architecto dolores eum, illo blanditiis fugit alias sit atque dolorum praesentium in. Vero voluptates aperiam delectus maiores doloribus, soluta sequi ipsa suscipit.</p>
+    <p class="pblue">Deleniti explicabo non officia ad aut! Incidunt, minima debitis at quisquam facilis atque ipsum voluptate similique totam architecto! Aspernatur aliquam libero fugiat cumque dolor nostrum voluptas nemo quas error voluptates?</p>
+    <p class="pblue pfont">Quam fugit asperiores ab explicabo ipsa similique, nisi tempore mollitia! Repellendus, autem at, quasi obcaecati fuga aliquam quos non enim repellat facilis mollitia recusandae, asperiores quia voluptatibus officiis consectetur vero?</p>
+    <p>Ipsa dignissimos voluptatum fugiat ducimus fugit voluptatem, similique aperiam quis minus, laborum consequuntur. Consequuntur repellat, commodi tempora sapiente cumque adipisci et odit incidunt cupiditate ratione omnis tempore suscipit quibusdam voluptates?</p>
+
+    <div id="iddiv">
+        <p id="pdiv">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quaerat officia in officiis architecto tenetur praesentium, temporibus id iusto dolores at ad deserunt perferendis quos itaque et corrupti nam quas.</p>
+        <p>Provident, tenetur reiciendis assumenda a ad accusantium esse tempora tempore, rem nihil quas facilis qui hic. Vel voluptatum provident a officiis commodi placeat, minus labore laborum accusantium dolor quia itaque?</p>
+        <p>Laudantium, mollitia commodi blanditiis porro temporibus ab consectetur voluptate nisi nulla dolor facilis consequuntur sequi asperiores adipisci a in, est dolorum enim, laborum exercitationem fuga! Dolor commodi aliquid quos nulla?</p>
+    </div>
+    <div class="iddiv">
+        <p class="pdiv">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quaerat officia in officiis architecto tenetur praesentium, temporibus id iusto dolores at ad deserunt perferendis quos itaque et corrupti nam quas.</p>
+
+        <section>
+            <p class="pdiv">Provident, tenetur reiciendis assumenda a ad accusantium esse tempora tempore, rem nihil quas facilis qui hic. Vel voluptatum provident a officiis commodi placeat, minus labore laborum accusantium dolor quia itaque?</p>
+            <p>Laudantium, mollitia commodi blanditiis porro temporibus ab consectetur voluptate nisi nulla dolor facilis consequuntur sequi asperiores adipisci a in, est dolorum enim, laborum exercitationem fuga! Dolor commodi aliquid quos nulla?</p>
+        </section>
+    </div>
+
+</body>
+</html>

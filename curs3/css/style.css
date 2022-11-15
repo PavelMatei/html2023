@@ -1,0 +1,9 @@
+p{color: red;}
+p:hover{color: blue;}
+h1{
+    font-size: 40px;
+}
+#demo{color: aqua !important;font-weight: bold;}
+#demo:hover{
+    color: rebeccapurple;
+}

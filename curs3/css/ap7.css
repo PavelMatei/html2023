@@ -1,0 +1,17 @@
+div{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    overflow: hidden;
+    margin: 25px;
+    border: 5px rgba(27, 137, 167, 0.7) solid;
+    padding: 10px 20px 15px 5px;
+    float: left;
+
+   /* padding-top: ;
+    padding-left: ;
+    padding-bottom: ;
+    padding-right: ; */
+    text-indent: center;
+    background: cadetblue;
+}
