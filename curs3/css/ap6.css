@@ -24,3 +24,19 @@ div p{
 .iddiv > .pdiv{
     color: aquamarine;
 }
+ul li{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    max-width: 75px;
+    margin: 25px;
+    border: 3px red solid;
+}
+html{ 
+height: 100%;
+}
+
+*{ 
+  margin: 0;
+  padding: 0;
+}
