@@ -1,0 +1,21 @@
+table{
+    text-align: center;
+    margin: auto;
+    width: 350px;
+}
+tr:nth-child(even){
+    color: black;
+    background-color: blueviolet;
+}
+tr:nth-child(odd){
+    color: white;
+    background-color: darkblue;
+} 
+tfoot>tr:nth-child(1){
+    background-color: darkgreen;
+    color: white;
+}
+tfoot>tr:nth-child(2){
+    background-color: black;
+    color: wheat;
+}
